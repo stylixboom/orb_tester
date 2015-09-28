@@ -1,7 +1,7 @@
 /*
- * bow_matching_visualizer.h
+ * main.cpp
  *
- *  Created on: November 5, 2013
+ *  Created on: September 23, 2015
  *      Author: Siriwat Kasamwattanarote
  */
 #include <unistd.h>     // sysconf
