@@ -101,7 +101,9 @@ int main( int argc, char** argv )
 	cout << "Write to: " << "/home/stylix/Pictures/cat_match.png" << endl;
     imwrite("/home/stylix/Pictures/cat_match.png", img_matches);
 	
-
+	// Release memory
+	delete detector;
+	delete matcher;
 	
 	return 0;
 }
